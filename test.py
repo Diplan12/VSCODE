@@ -1,1 +1,3 @@
-print("hellow world")
+name = input("Como te llamas")
+
+print("hola "+name)
