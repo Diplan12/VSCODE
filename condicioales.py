@@ -49,12 +49,12 @@ import sys
         print("No tienes que tributar")"""
 
 def main():
-    age = int(input("¿Cuál es tu edad? "))
-    income = float(input("¿Cuales son tus ingresos mensuales?"))
-    if age <= 16 or income < 1000:
-        print("No tienes que cotizar")
+    edad = int(input("¿Cuántos años tiene? "))
+    if edad < 120:
+        pass
     else:
-        print("Tienes que cotizar")
+        print("¡No me lo creo!")
+        print(f"Usted dice que tiene {edad} años.")
     
 if __name__ == '__main__':
     sys.exit(main())
