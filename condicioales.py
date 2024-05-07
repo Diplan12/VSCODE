@@ -1,6 +1,6 @@
 import sys
 
-
+#test complete
 """Echo the input arguments to standard output"""  
 """ EJERCICIO #1
     edad= int(input("introduce tu edad: "))
@@ -56,12 +56,5 @@ def main():
     else:
         print("Tienes que cotizar")
     
-
-
-    
- 
-
-
-
 if __name__ == '__main__':
     sys.exit(main())
