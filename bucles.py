@@ -47,15 +47,34 @@ num= int(input("INTRODUZCA UN NUMERO POSITIVO: "))
             print(f"{i*j}", end="\t")
         print("")"""
 
-def main():
-    #num= int(input("INTRODUZCA UN NUMERO POSITIVO: "))
-  ##  for i in range(num):
-    ##    for j in range(i+1):
-      ##      print("*", end="")
-        ##print("")
-    work= input("INTRODUZCA UNA PALABRA ")
-    for i in range(len(work)-1,-1,-1):
-        print(work[i])
+"""num= int(input("INTRODUZCA un numero positivo"))
+    for i in range(num):
+        for j in range (i+1):
+            print("*",end="")
+        print("")"""
 
+"""n = (input("Introduce una palabra: "))
+    defo = [n]
+    for i in range(len(n)-1,-1,-1):
+        print(n[i])"""
+
+"""frase = input("Introduce una frase: ")
+letra = input("Introduce una letra")
+contador = 0
+for i in frase:
+    if i == letra:
+        contador += 1
+print("La letra '%s' aparece %2i veces en la frase '%s'." % (letra, contador, frase))"""
+
+def main():
+    n = (input("Introduce una palabra: "))
+    letra= (input("Introduce una letra: "))
+    for i in range(len(n)):
+        print(n.count(letra))
+    
+    
+   
+   
+ 
 if __name__ == '__main__':
     sys.exit(main())
