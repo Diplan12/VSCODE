@@ -15,7 +15,7 @@ def guardar_en_csvtest(lista_valores, nombre_archivo):
     with open(nombre_archivo, 'w', newline='') as archivo_csv:
         # Crea un escritor CSV
         escritor_csv = csv.writer(archivo_csv)
-        
+        escritor_csv.writerow(['Business Name'])
         # Itera sobre la lista y escribe cada valor en una fila
         for valor in lista_valores:
             escritor_csv.writerow([valor])
